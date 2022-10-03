@@ -1,0 +1,13 @@
+package com.tamilschool.minibookkeeping;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MinibookkeepingApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MinibookkeepingApplication.class, args);
+	}
+
+}
