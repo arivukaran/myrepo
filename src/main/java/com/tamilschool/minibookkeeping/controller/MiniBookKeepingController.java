@@ -29,9 +29,17 @@ public class MiniBookKeepingController {
         book2.setBookCost(10.99f);
         book2.setPublisherName("Chennai");
 
+        Book book3 = new Book();
+        book3.setBookId(1002);
+        book3.setBookName("Pyhton learning");
+        book3.setAuthor("Don");
+        book3.setBookCost(2.99f);
+        book3.setPublisherName("Chennai");
+
 
         bookList.add(book1);
         bookList.add(book2);
+        bookList.add(book3);
 
         return bookList;
     }
